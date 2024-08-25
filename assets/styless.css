@@ -101,7 +101,6 @@ body {
     transform: scale(0.98);
 }
 /*Fin  Estilo de cada botón */
-
 .sidebar {
     position: absolute;
     top: 40px;
@@ -125,6 +124,14 @@ body {
 .sidebar span{
     margin-top: 10px;
     text-align: center;
+}
+
+footer{
+    margin-top: 1rem;
+    color: #0056b3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 /* ipadOS 14.7.1*/
 @media (max-width: 900px) {
