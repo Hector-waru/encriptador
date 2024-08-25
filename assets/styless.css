@@ -1,0 +1,296 @@
+body {
+    background-color: #EFF1FA;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 120px;
+    height: 3.5rem;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-content{
+    margin-top: 5%;
+    margin-left: 240px;
+    font-size: 28pt;
+    width: 50%;  
+    height: 3.5rem;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.txt-cont{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    resize: none;
+    height: 600px;
+    width: 100%;
+    font: inherit;
+    background: transparent; 
+}
+.conditional{
+    margin-top: 5%;
+    margin-left: 220px;
+    width: 20rem;
+    height: 3.5rem;
+}
+
+.button-group {
+    display: flex;
+    margin-left: 10%;
+}
+
+.btn-copy {
+    background-color: #ffffff;
+    border: none;
+    color:  #0A3871;
+    font-size: 16pt;
+    padding: 24px 160px;
+    margin: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 2px solid #0A3871;
+    margin-bottom: 3%;
+}
+/* Estilo de cada botón */
+.btn-enc {
+    background-color: #0A3871;
+    border: none;
+    color: white;
+    font-size: 16pt;
+    padding: 24px 160px;
+    margin: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-decenc {
+    background-color: #D8DFE8;
+    border: none;
+    color:  #0A3871;
+    font-size: 16pt;
+    padding: 24px 160px;
+    margin: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-enc:hover {
+    background-color: #0056b3;
+}
+.btn-enc:active {
+    transform: scale(0.98);
+}
+.btn-decenc:hover {
+    background-color: #71776e;
+}
+.btn-decenc:active {
+    transform: scale(0.98);
+}
+.btn-copy:hover {
+    background-color: #71776e;
+}
+.btn-copy:active {
+    transform: scale(0.98);
+}
+/*Fin  Estilo de cada botón */
+
+.sidebar {
+    position: absolute;
+    top: 40px;
+    left: 70%; 
+    width: 25%;
+    height: 90%;
+    border-radius: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar img{
+    max-width: 100%;
+    height: auto;
+}
+.sidebar span{
+    margin-top: 10px;
+    text-align: center;
+}
+/* ipadOS 14.7.1*/
+@media (max-width: 900px) {
+
+    .logo {margin-top: 40px;
+        margin-left: 10px;
+        width: 60px;
+        height: 2rem;
+    }
+    .text-content{
+        margin-top: 10%;
+        margin-left: 10px;
+        font-size: 28pt;
+        width: 90%;  
+        height: 3.5rem;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .txt-cont{
+        border: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        resize: none;
+        height: 600px;
+        width: 100%;
+        font: inherit;
+        background: transparent; 
+    }
+    .conditional{
+        margin-top: 10%;
+        margin-left: 40px;
+        width: 20rem;
+        height: 3rem;
+    }
+    
+    .button-group {
+        display: flex;
+        margin-left: 1%;
+    }
+    /* Estilo de cada botón */
+    .btn-enc {
+        background-color: #0A3871;
+        border: none;
+        color: white;
+        font-size: 16pt;
+        padding: 10px 120px;
+        margin: 3%;
+        border-radius: 50px;
+    }
+    .btn-decenc {
+        background-color: #EFF1FA;
+        border: 2px solid #0A3871;
+        color:  #0A3871;
+        font-size: 16pt;
+        padding: 20px 120px; 
+        border-radius: 50px;
+    }
+    /*Fin  Estilo de cada botón */
+    .sidebar { 
+        left: 10px;
+        right: 10px;
+        width: 90%;
+        height: auto;
+        margin: 10px 10px 80px 10px;
+        margin-top: 120%;
+        background-color: #eeeeee;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 4px 6px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    }
+    .sidebar img{
+        display: none;
+    }
+    .sidebar span{
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+/*iphone 11 pro max*/
+@media (max-width: 500px) {
+
+    .logo {margin-top: 40px;
+        margin-left: 10px;
+        width: 60px;
+        height: 2rem;
+    }
+    .text-content{
+        margin-top: 10%;
+        margin-left: 10px;
+        font-size: 28pt;
+        width: 90%;  
+        height: 3.5rem;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .txt-cont{
+        border: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        resize: none;
+        height: 600px;
+        width: 100%;
+        font: inherit;
+        background: transparent; 
+    }
+    
+    .conditional{
+        margin-top: 20%;
+        margin-left: 20px;
+        width: 20rem;
+        height: 1rem;
+    }
+    
+    .button-group{
+        margin-top: 10%;
+        display: block;
+        padding: 10px;
+        color: white;
+        font-size: 10pt;
+    }
+    /* Estilo de cada botón */
+    .btn-enc {
+        background-color: #0A3871;
+        color: white;
+        font-size: 16pt;
+        padding: 20px 120px;
+        margin: 3%;
+        border-radius: 50px;
+    }
+    .btn-decenc {
+        background-color: #EFF1FA;
+        border: 2px solid #0A3871;
+        color:  #0A3871;
+        font-size: 16pt;
+        padding: 20px 95px; 
+        border-radius: 50px;
+    }
+    /*Fin  Estilo de cada botón */
+    .sidebar { 
+        left: 10px;
+        right: 10px;
+        width: 80%;
+        height: auto;
+        margin: 10px 10px 80px 10px;
+        margin-top: 265%;
+        background-color: #eeeeee;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 4px 6px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    }
+    .sidebar img{
+        display: none;
+    }
+    .sidebar span{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .sidebar button{
+        background-color: white;
+        color: #0A3871;
+        font-size: 16pt;
+        padding: 20px 120px;
+        margin: 3%;
+        border-radius: 50px;
+    }
+
+}

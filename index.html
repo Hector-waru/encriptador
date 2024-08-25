@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styless.css">
+    <title>Alura encriptador</title>
+</head>
+<body>
+    <div class="logo">
+        <img class="alura" src="./assets/Vector.png" alt="">
+    </div>
+    <div class="container">
+        <div class="text-content" contenteditable="true">
+            <textarea class="txt-cont" name="" id="txt">EMPIEZA A ESCRIBIR</textarea>
+        </div>
+    
+        <div class="conditional">
+            <img class="warning" src="./assets/Group.png" alt="">
+            Solo letras minusculas y sin acentos
+        </div>
+    
+        <div class="button-group">
+            <button class="btn-enc" onclick="actualizarSidebar(seleccionarTextoArea())">Encriptar</button>
+            <button class="btn-decenc" onclick="actualizarSidebar(restaurarTexto())">Desencriptar</button>
+        </div>
+    </div>
+    <div class="sidebar">
+        <img class="warning" src="./assets/Muneco.png" alt="">
+        <span class="message" id="messag"><b>Ningun mensaje fue encontrado</b> <p>Ingresa el texto que deseas Encriptar o Desencriptar</p></span>
+        <button class="btn-copy" style="display: none;" onclick="copiarTextoAr('message')">Copiar</button>
+    </div>
+    <!--  -->
+    <script src = "assets/main.js"></script>
+</body>
+</html>
