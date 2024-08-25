@@ -21,14 +21,14 @@
         </div>
     
         <div class="button-group">
-            <button class="btn-enc" onclick="actualizarSidebar(seleccionarTextoArea())">Encriptar</button>
-            <button class="btn-decenc" onclick="actualizarSidebar(restaurarTexto())">Desencriptar</button>
+            <button class="btn-enc" onclick="updateSidebar(selecTextArea())">Encriptar</button>
+            <button class="btn-decenc" onclick="updateSidebar(restoreText())">Desencriptar</button>
         </div>
     </div>
     <div class="sidebar">
         <img class="warning" src="./assets/Muneco.png" alt="">
         <span class="message" id="messag"><b>Ningun mensaje fue encontrado</b> <p>Ingresa el texto que deseas Encriptar o Desencriptar</p></span>
-        <button class="btn-copy" style="display: none;" onclick="copiarTextoAr('message')">Copiar</button>
+        <button class="btn-copy" style="display: none;">Copiar</button>
     </div>
     <!--  -->
     <script src = "assets/main.js"></script>
